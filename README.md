@@ -1,6 +1,6 @@
 # Maui
 
-This repository contains the source code for the paper, <b>"Maui: Black-Box Edge Privacy Attack on Graph Neural Networks"</b> by Haoyu He, Isaiah J. King and H. Howie Huang, presented at [PETS 2024](https://petsymposium.org/2024/).
+This repository contains the source code for the paper, **"Maui: Black-Box Edge Privacy Attack on Graph Neural Networks"** by Haoyu He, Isaiah J. King and H. Howie Huang, presented at [PETS 2024](https://petsymposium.org/2024/).
 
 [[Paper]]()
 
@@ -56,6 +56,8 @@ We use `attacker` to control which attackers to use, specifically, 0: Maui, 1: L
 
 ### Evaluating the attack performance
 
-`eval_baseline.py` can provide the all the evaluations from the paper. The command to run it is similar to running the attack, where you need to specify the dataset, model and the attack type. Additionally, you can specify `--topk` for precision and recall.
+`eval_baseline.py` can provide the all the evaluations from the paper. The command to run it is similar to running the attack, where you need to specify the dataset, model and the attack type. Additionally, you can specify `topk` for precision and recall.
 
-`eval_k.py` can provide precisions and recalls at different `--topk`.
+`eval_k.py` can provide precisions and recalls at different `topk`.
+
+We also provide the evaluation for decoders in `decode.py` and 'decode_k`.
