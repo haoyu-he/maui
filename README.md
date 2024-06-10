@@ -24,7 +24,7 @@ The trained models are saved in the `./src` folder.
 
 The matrices of influence nodes and influence values are saved in the `./influence_values` folder, separated by datasets. They are saved as `.npz` files in `coo` format.
 
-For small datasets, we run `*.py`. For large datasets, we run `*_sample.py`, which randomly select a subgraph to attack in each round.
+For small datasets, we run `*.py`. For large datasets, we run `*_sample.py`, which selects a random subgraph to attack in each round.
 
 In the following sections, we will provide simple commands for running the experiment on small datasets. 
 
