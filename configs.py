@@ -19,13 +19,13 @@ def get_arguments():
     parser.add_argument('--norm', action='store_true', default=0)  # apply feature norm at the beginning of the model
     '''attacker'''
     parser.add_argument('--attacker', type=int, default=1)  # 0 - our method; 1 - link teller; 2 - link stealing
-    parser.add_argument('--feat', action='store_true', default=0)  # if node features are accessible
+    parser.add_argument('--feat', action='store_true', default=0)  # whether node features are accessible
     parser.add_argument('--targets', type=int, nargs='*', default=None)
-    parser.add_argument('--sample', type=int, default=None)  # for Maui_efficient
+    parser.add_argument('--sample', type=int, default=None)  # for Maui_efficient: the number of sampling times for each target node
     parser.add_argument('--combo', action='store_true', default=0)  # Maui_comb
     parser.add_argument('--combo_bar', type=float, default=2e-1)  # threshold for Maui_comb
     parser.add_argument('--efficient', action='store_true', default=0)  # for attacker 0 and 1
-    parser.add_argument('--pos_type', type=int, default=0)  # for attacker 2: 0 - prediction; 1 - node features
+    parser.add_argument('--pos_type', type=int, default=0)  # posterior type for attacker 2: 0 - prediction; 1 - node features
     parser.add_argument('--topk', type=float, default=1.0)  # rate of top-k
     '''attacker execution'''
     parser.add_argument('--erase', action='store_true', default=1)  # erase previous results (start new)

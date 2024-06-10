@@ -112,7 +112,7 @@ is_whole_graph = False
 if args.targets is None:
     targets = range(data.x.shape[0])
     is_whole_graph = True
-elif type(args.targets) == int:
+elif type(args.targets) is int:
     targets = [args.targets]
 elif len(args.targets) == 2:
     targets = range(args.targets[0], args.targets[1])
