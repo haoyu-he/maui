@@ -26,7 +26,7 @@ The matrices of influence nodes and influence values are saved in the `./influen
 
 For small datasets, we run `*.py`. For large datasets, we run `*_sample.py`, which selects a random subgraph to attack in each round.
 
-In the following sections, we will provide simple commands for running the experiment on small datasets. 
+In the following sections, we provide simple commands for running the experiment on small datasets. 
 
 ### Training a GNN model
 
@@ -52,7 +52,7 @@ To use Maui_comb, run:
 python get_influence_values.py --dataset DATASET_NAME --model MODEL_NAME --attacker 0 --combo --combo_bar THRESHOLD
 ```
 
-We use `attacker` to control which attackers to use, specifically, 0: Maui, 1: LinkTeller, 2: LSA2. 
+We use `attacker` to specify which attacker to use, specifically, 0: Maui, 1: LinkTeller, 2: LSA2. 
 
 ### Evaluating the attack performance
 
