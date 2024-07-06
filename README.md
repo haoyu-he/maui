@@ -2,7 +2,9 @@
 
 This repository contains the source code for the paper, **"Maui: Black-Box Edge Privacy Attack on Graph Neural Networks"** by Haoyu He, Isaiah J. King and H. Howie Huang, presented at [PETS 2024](https://petsymposium.org/2024/).
 
-[[Paper]]()
+![framework](./framework.svg)
+
+[[Paper](https://doi.org/10.56553/popets-2024-0121)]
 
 ## Requirements
 
