@@ -58,7 +58,7 @@ We use `attacker` to specify which attacker to use, specifically, 0: Maui, 1: Li
 
 ### Evaluating the attack performance
 
-`eval_baseline.py` can provide the all the evaluations from the paper. The command to run it is similar to running the attack, where you need to specify the dataset, model and the attack type. Additionally, you can specify `topk` for precision and recall.
+`eval_baseline.py` can provide the all the evaluations from the paper. The command to run it is similar to running the attack, where you need to specify the dataset, model and the attack. Additionally, you can specify `topk` for precision and recall.
 
 `eval_k.py` can provide precisions and recalls at different `topk`.
 
