@@ -62,4 +62,4 @@ We use `attacker` to specify which attacker to use, specifically, 0: Maui, 1: Li
 
 `eval_k.py` can provide precisions and recalls at different `topk`.
 
-We also provide the evaluation for decoders in `decode.py` and `decode_k`.
+We also provide the evaluation for decoders in `decode.py` and `decode_k.py`.
