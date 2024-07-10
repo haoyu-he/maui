@@ -6,6 +6,17 @@ This repository contains the source code for the paper, **"Maui: Black-Box Edge 
 
 [[Paper](https://doi.org/10.56553/popets-2024-0121)]
 
+```
+@article{he2024maui,
+  title={Maui: Black-Box Edge Privacy Attack on Graph Neural Networks},
+  author={He, Haoyu and King, Isaiah J and Huang, H Howie},
+  journal={Proceedings on Privacy Enhancing Technologies},
+  volume={4},
+  pages={364--380},
+  year={2024}
+}
+```
+
 ## Requirements
 
 We use [Pytorch Geometric 2.4.0](https://pytorch-geometric.readthedocs.io/en/stable/) (PyG) and later for implementation. Please follow the instruction to install PyG.
